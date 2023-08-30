@@ -1,0 +1,87 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Sriracha;
+    src: url(../../Fontes/Sriracha/Sriracha-Regular.ttf);
+}
+@font-face {
+    font-family: EduSABeginner;
+    src: url(../../Fontes/Edu_SA_Beginner/EduSABeginner-VariableFont_wght.ttf);
+}
+
+/*Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768 até 992px
+Desktop: 992px até 1200px
+Grandes telas; acima de 1200px*/
+
+body, html{
+    font-family: 'Courier New', Courier, monospace; 
+    background-color: rgba(168, 168, 194, 0.151);
+   
+}
+
+header > h1{
+        background-color: antiquewhite;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+       
+    
+}
+nav > a {
+    text-decoration: none;
+    display: block;
+    font-size: 1.2em;
+    color: black;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+nav > a:hover{
+    background-image: linear-gradient(rgba(255, 0, 0, 0.116)
+    , rgba(255, 255, 0, 0.096));
+    font-weight: bolder;
+    text-decoration: underline;
+    
+
+}
+main{
+    font-family: Sriracha;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    font-weight: 500;
+    text-indent: 20px;
+    padding: 0px 15px;
+    text-align: justify;
+
+}
+article > picture > img{
+    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;    
+}
+article > picture > img:hover{
+    cursor: grab;
+}
+article > p > blockquote > a{
+    text-decoration: none;
+    font-weight: bold;
+
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding:1px;
+    
+}
+footer > aside > p > strong:hover{
+    color: red;
+    cursor: wait;
+}
